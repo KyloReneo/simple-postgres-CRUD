@@ -1,6 +1,6 @@
 package models
 
-//Define a simple struct model for records structure in Database
+//Define a simple schema for the users table
 type Stock struct {
 	StockId int64  `json:"stockid"`
 	Name    string `json:"name"`
